@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 
     --background: rgb(226, 226, 226);
-    --background-calculadora: rgba(216, 216, 216, 0.692);
+    --background-calculadora: rgba(0, 0, 0, 0.267);
     --button: rgb(247, 10, 10);
     --button-hover: rgb(196, 11, 11);
 
@@ -43,6 +43,8 @@
 .content .calculadora h2 {
     font-size: 1.5rem;
     margin-bottom: 30px;
+
+    color: white;
 }
 
 .content .calculadora input {
@@ -81,7 +83,8 @@
     width: 60%;
     height: 70px;
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: white;
 
     display: flex;
     align-items: center;

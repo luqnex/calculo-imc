@@ -9,19 +9,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container-black"></div>
     <div class="content">
-            
-            <div class="calculadora">
-                <h2>Calculadora de IMC(indice de massa corporal)</h2>
+        <header>
+            <ul>
+                <a href="#entenda"><li>O que é IMC</li></a>
+                <a href="#calculadora"><li>Calculadora IMC</li></a>
+                <a href="#classificacao"><li>Classificação IMC</li></a>
+            </ul>
+        </header>
+
+        <main id="entenda">
+            <div class="content-main">
+                <h1>Entenda o que é o IMC</h1>
     
-                <input id="peso" type="number" placeholder="Informe seu peso (kg)">
-                <input id="altura" type="number" placeholder="Informe sua altura (metros e cm)">
-    
-                <button id="calcular">Calcular</button>
-    
-                <div id="resultado"></div>
+                <p>Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Muitas pessoas buscam descobrir seu IMC quando iniciam uma dieta específica ou uma atividade física. E estão certas, pois ele aponta a normalidade - peso adequado -, a magreza ou a obesidade em diferentes níveis. Mas, com o resultado deste cálculo em mãos, o que fazer? E o que este número final diz sobre a saúde de cada pessoa?</p>
             </div>
-        
+        </main>
+        <div class="calculadora" id="calculadora">
+            <h2>Calculadora de IMC(indice de massa corporal)</h2>
+
+            <input id="peso" type="number" placeholder="Informe seu peso (kg)">
+            <input id="altura" type="number" placeholder="Informe sua altura (metros e cm)">
+
+            <button id="calcular">Calcular</button>
+
+            <div id="resultado"></div>
+        </div>
+
+        <section id="classificacao">
+            <ul>
+                <p>IMC - Clasificação do IMC:</p>
+                <li>Menor que 16 - Magreza grave</li>
+                <li>16 a menor que 17 - Magreza moderada</li>
+                <li>17 a menor que 18,5 - Magreza leve</li>
+                <li>18,5 a menor que 25 - Saudável</li>
+                <li>25 a menor que 30 - Sobrepeso</li>
+                <li>30 a menor que 35 - Obesidade Grau I</li>
+                <li>35 a menor que 40 - Obesidade Grau II (considerada severa)</li>
+                <li>Maior que 40 - Obesidade Grau III (considerada mórbida)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Fonte: <a target="_blank" href="https://www.uol.com.br/vivabem/noticias/redacao/2019/02/15/entenda-o-que-e-o-imc-e-o-que-a-medida-diz-sobre-sua-saude.htm">uol.com.br</a></p>
+        </footer>
     </div>
 
     <script src="./script.js"></script>
